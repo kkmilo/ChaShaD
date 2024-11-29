@@ -1,13 +1,17 @@
 # ChaShaD
 Proyecto TEL252
 
-# Integrantes:
+**Integrantes:**
+
 -Clemente Mujica.
+
 -Daniel Fernández.
+
 -Máximo Flores.
+
 -Camilo Troncoso
 
 
 
 
-Se incluye los códigos para correrlo sólo en Python o con contenedores en Docker.
+**Se incluye los códigos para correr la solución propuesta sólo en Python o con contenedores en Docker.**
