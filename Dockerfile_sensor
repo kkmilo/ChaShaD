@@ -1,0 +1,11 @@
+# DOCKERFILE SENSOR
+FROM python:3.9-slim
+
+# Dependencias
+RUN pip install pycryptodome requests 
+
+# Copiar script del sensor
+COPY sensor.py /app/sensor.py
+
+# Ejecutar el script
+CMD ["python", "/app/sensor.py"]

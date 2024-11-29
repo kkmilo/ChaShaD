@@ -1,0 +1,11 @@
+# DOCKERFILE BASE-STATION
+FROM python:3.9-slim
+
+# Dependencias
+RUN pip install flask pycryptodome
+
+# Copiar script de la base-station
+COPY base_station.py /app/base_station.py
+
+# Ejecutar el servidor
+CMD ["python", "/app/base_station.py"]
