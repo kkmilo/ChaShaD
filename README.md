@@ -15,3 +15,6 @@ Proyecto TEL252
 
 
 **Se incluye los códigos para correr la solución propuesta sólo en Python o con contenedores en Docker.**
+
+**Vídeo de muestra:**
+https://youtu.be/VkYcB6ZNzTk
